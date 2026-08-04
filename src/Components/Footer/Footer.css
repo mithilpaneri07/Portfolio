@@ -1,0 +1,9 @@
+.footer-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    background-color: black;
+    color: #aaa;
+    border-top: 0.1vh solid #aaaaaa4f;
+}

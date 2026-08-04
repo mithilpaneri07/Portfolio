@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="100%" height="100%" fill="#101010" />
+  <rect x="40" y="40" width="1120" height="720" fill="#ff4757" rx="20"/>
+  <text x="50%" y="50%" fill="#fff" font-size="40" font-family="Arial" text-anchor="middle" alignment-baseline="middle">Thought 2</text>
+</svg>

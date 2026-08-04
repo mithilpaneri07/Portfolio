@@ -1,0 +1,60 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text);
+    background-color: var(--bg);
+    height: 60px;
+    padding: 10px 10%;
+    font-family: sans-serif;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.headerlink {
+    font-size: large;
+    text-decoration: none;
+    color: var(--muted);
+}
+
+.hire-me {
+    border-radius: 20px;
+    width: 130px;
+    color: var(--text);
+    background-color: var(--accent);
+    padding: 10px;
+    border: none;
+    font-size: large;
+
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+}
+
+.theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 34px;
+    border-radius: 20px;
+    background: var(--surface);
+    color: var(--text);
+    border: 1px solid rgba(255,255,255,0.06);
+    margin-left: 12px;
+    padding: 6px;
+    cursor: pointer;
+    transition: background .2s, color .2s;
+}
+.theme-toggle .icon { display: none; }
+.theme-toggle.on { background: linear-gradient(90deg, #ffd166 0%, #ffaf40 100%); color: #111; }
+.theme-toggle.on .sun { display: inline-block; }
+.theme-toggle:not(.on) .moon { display: inline-block; }
+.sr-only{ position:absolute; left:-9999px; }

@@ -1,0 +1,49 @@
+.services-section {
+    background-color: #101013;
+    color: white;
+    padding: 130px 10%;
+    font-family: Arial, sans-serif;
+}
+
+.subtitle {
+    color: #006400;
+    font-weight: 600;
+    margin: 0;
+}
+
+.title {
+    font-size: 54px;
+    margin: 10px 0 40px 0;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card {
+    background-color: #606060;
+    border: 1px solid #222;
+    width: 33%;
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.icon-wrapper img {
+    width: 40px;
+    height: 40px;
+}
+
+.card h2 {
+    font-size: 22px;
+    margin: 20px 0 10px 0;
+}
+
+.card p {
+    color: #aaa;
+    font-size: 15px;
+    line-height: 1.5;
+}
