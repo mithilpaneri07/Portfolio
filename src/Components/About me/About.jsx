@@ -13,8 +13,8 @@ const About = () => {
         <h2 className="about-heading">A bit about</h2>
         <h2 className="about-heading">who I am</h2>
         <p className="about-text">
-          I'm Eliott, a freelance designer and frontend developer based in Paris
-          with 5 years of experience shipping digital products for startups,
+          I'm MP, a freelance designer and frontend developer based in Udaipur
+          with 1.5 years of experience shipping digital products for startups,
           agencies, and scale-ups across Europe. I thrive at the intersection of
           great design and clean code.
         </p>
